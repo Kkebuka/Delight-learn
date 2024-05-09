@@ -1,0 +1,220 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+header{
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.menu-toggle{
+    display: none;
+}
+.navbar, .menu{
+    width: 800px;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 100%; */
+    color: red;
+    font-size: 1.5rem;
+    
+}
+.menu{
+    align-items: center;
+}
+.menu  * {
+    text-decoration: none;
+}
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 2px 0px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: gray;
+}
+.totality{
+    width: 100%;
+    height: 100vh;
+}
+.banner-con{
+    width: 100%;
+    display: flex;
+    height: 80%;
+}
+
+.banner{
+    width: 60%;
+    padding-top: 10%;
+}
+h1{
+    font-size: 3.6rem;
+}
+.banner > p{
+    font-size: 1.6rem;
+}
+
+span{
+    color: #20AE26;
+}
+.imgbanner-div{
+    height: 100%;
+}
+#banner-img{
+    height: 100%;
+}
+.search-div{
+    border: 2px solid blue;
+}
+#search-img{
+    border: none;
+}
+
+/* sECOND */
+.courses{
+    width: 100%;
+}
+.course-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.c-one{
+    width: 12%;
+    padding: 20px;
+}
+
+.inli{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#most{
+    text-align: center;
+}
+
+.popular{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5%;
+}
+.p-one{
+    width: 10%;
+    padding: 10px;
+    
+}
+.p-one > p{
+    text-align: center;
+}
+#go-btn{
+    padding: 10px;
+}
+.dev-div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0px;
+}
+.dev-con{
+    padding: 20px;
+}
+
+.dev{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+}
+.dev-name{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    gap: 15px;
+}
+.dev-name > p{
+    margin-left: auto;
+
+}
+.dev-name > img{
+    width: 40px;
+}
+/* Third Section */
+.learners, h2{
+    text-align: center;
+}
+.learners-con{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    overflow: hidden;
+}
+
+.inlearn{
+    width: 550px;
+}
+.tolearn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog-div{
+    width: 100%;
+}
+.blog-con{
+    display: flex;
+}
+
+/* Library Part */
+.lib{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 255, 255, 0.438);
+}
+.sub-con{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0px;
+}
+
+/* Awesome workshop */
+.awesome > h4{
+    text-align: center;
+}
+.grid-con{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    justify-content: center;
+    align-items: center;
+    gap: 15px 40px;
+    /* grid-template-columns: auto auto; */
+}
+
+/* footer */
+.about-div{
+    width: 100%;
+}
+.about-us{
+    display: flex;
+    justify-content: space-between;
+}
+.ref{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    border-top: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
