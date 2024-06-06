@@ -249,6 +249,13 @@ h2{
 .inblog{
     text-align: left;
 }
+.inblog > h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.inblog > h4{
+    margin-bottom: 10px;
+}
 .upcoming > h2{
     color: black;
 }
